@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Title</title>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/maincss.css" rel="stylesheet">
     <link href="css/common.css" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
     <link href="css/vxcustom.css" rel="stylesheet">
@@ -13,69 +15,7 @@
 </head>
 <body>
 
-<div class="questions" id="questions">
-    <img src="img_default/Screenshot_2.png">
-    <div class="questions-text">
-        <h3>Остались вопросы?</h3>
-        <p>
-            Я - <b>Виталий Шелест</b>, менеджер компании Voxlink. Хотите уточнить детали или готовы оставить заявку? Укажите номер телефона, я перезвоню в течение 3-х секунд.
-        </p>
-        <div class="questions-btns">
-            <a href="#quest-open-tab1" class="quest-open-tab quest-active-a btn btn-transparent">Заказать звонок</a>
-            <form id="quest-open-tab1" class="quest-tab quest-active-tab form-quest1 has-validation-callback">
-                <div style="display: none;">
-                    <input type="text" name="fullName" value="" class="ym-record-keys">
-                </div>
-                <div class="field">
-                    <input type="tel" name="phone" placeholder="Телефон" im-insert="true" class="ym-record-keys" data-validation="required, number, length" data-validation-length="8-12" data-validation-ignore="+,(,),-, ">
-                </div>
-                <input type="submit" value="Заказать звонок" name="send" class="ym-record-keys">
-                <input type="hidden" name="action" value="submitForm" class="ym-record-keys">
-            </form>
-            <a href="#quest-open-tab2" class="quest-open-tab btn btn-transparent">Отправить сообщение</a>
-            <form id="quest-open-tab2" class="quest-tab form-quest2 has-validation-callback">
-                <div style="display: none;">
-                    <input type="text" name="fullName" value="" class="ym-record-keys">
-                </div>
-                <div class="forms-names">
-                    <div class="field">
-                        <input type="text" class="name ym-record-keys" name="name" placeholder="Введите ваше имя" data-validation="required">
-                    </div>
-                    <div class="field">
-                        <input type="text" class="email ym-record-keys" name="email" placeholder="Введите ваш email" data-validation="required, email">
-                    </div>
-                </div>
-                <div class="field">
-                    <textarea name="message" placeholder="Ваше сообщение"></textarea>
-                </div>
-                <input type="submit" value="отправить" name="send" class="ym-record-keys">
-                <input type="hidden" name="action" value="submitForm" class="ym-record-keys">
-            </form>
-            <a href="#quest-open-tab3" class="quest-open-tab btn btn-transparent">Заявка на расчет проекта</a>
-            <form id="quest-open-tab3" class="quest-tab form-quest3 has-validation-callback">
-                <div style="display: none;">
-                    <input type="text" name="fullName" value="" class="ym-record-keys">
-                </div>
-                <textarea name="message" placeholder="Ваше сообщение"></textarea>
-                <div class="namenum">
-                    <div class="field">
-                        <input type="text" class="name ym-record-keys" name="name" placeholder="Введите ваше имя" data-validation="required">
-                    </div>
-                    <div class="field">
-                        <input type="tel" name="phone" placeholder="Введите ваш телефон" im-insert="true" class="ym-record-keys" data-validation="required, number, length" data-validation-length="8-12" data-validation-ignore="+,(,),-, ">
-                    </div>
-                </div>
-                <div class="emailsend">
-                    <div class="field">
-                        <input type="text" class="email ym-record-keys" name="email" placeholder="Введите ваш email" data-validation="required, email">
-                    </div>
-                    <input type="submit" value="отправить" name="send" class="ym-record-keys">
-                    <input type="hidden" name="action" value="submitForm" class="ym-record-keys">
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
+
 <div class="clients">
     <div class="inner">
         <div class="container-fluid">
@@ -84,12 +24,12 @@
                     <h2>Наши<br>клиенты</h2>
                     <div class="clients-content">
                         <div class="clients-item">
-                            <img src="/wp-content/themes/voxlink/img/client1.png">
+                            <img src="img_default/client1.png">
                         </div>
-                        <div class="clients-item"><img src="/wp-content/themes/voxlink/img/client2.png"></div>
-                        <div class="clients-item"><img src="/wp-content/themes/voxlink/img/client3.png"></div>
-                        <div class="clients-item"><img src="/wp-content/themes/voxlink/img/client4.png"></div>
-                        <div class="clients-item"><img src="/wp-content/themes/voxlink/img/client5.png"></div>
+                        <div class="clients-item"><img src="img_default/client2.png"></div>
+                        <div class="clients-item"><img src="img_default/client3.png"></div>
+                        <div class="clients-item"><img src="img_default/client4.png"></div>
+                        <div class="clients-item"><img src="img_default/client5.png"></div>
                     </div>
                     <a href="/about-us/our-clients/" class="btn btn-clients">Посмотреть все<i class="icon icon-2arrow"></i></a>
                 </div>
