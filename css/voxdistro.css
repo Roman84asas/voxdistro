@@ -196,6 +196,33 @@
       .voxdistro_section_recital .wrapper .recital_items .recital_item .recital_item_body {
         width: 310px;
         margin: 0 auto; }
+        .voxdistro_section_recital .wrapper .recital_items .recital_item .recital_item_body .recital_item_number {
+          font-size: 16px;
+          font-weight: bold;
+          width: 40px;
+          text-align: left; }
+        .voxdistro_section_recital .wrapper .recital_items .recital_item .recital_item_body .green {
+          border-right: 3px solid #878FFE; }
+        .voxdistro_section_recital .wrapper .recital_items .recital_item .recital_item_body .red {
+          border-right: 3px solid #ff5973; }
+        .voxdistro_section_recital .wrapper .recital_items .recital_item .recital_item_body .orange {
+          border-right: 3px solid #ffaf74; }
+        .voxdistro_section_recital .wrapper .recital_items .recital_item .recital_item_body .light_green {
+          border-right: 3px solid #10d0a1; }
+        .voxdistro_section_recital .wrapper .recital_items .recital_item .recital_item_body .blue {
+          border-right: 3px solid #40c4f4; }
+        .voxdistro_section_recital .wrapper .recital_items .recital_item .recital_item_body .recital_item_img {
+          border-radius: 5px;
+          width: 100px;
+          height: 100px;
+          display: block;
+          margin-top: 25px; }
+        .voxdistro_section_recital .wrapper .recital_items .recital_item .recital_item_body .img_green {
+          background-color: #878FFE;
+          box-shadow: 0 10px 20px 0 #878FFE; }
+        .voxdistro_section_recital .wrapper .recital_items .recital_item .recital_item_body .img_red {
+          background-color: #ff5973;
+          box-shadow: 0 10px 20px 0 #ff5973; }
     .voxdistro_section_recital .wrapper .recital_items .recital_item:nth-child(2) {
       margin-top: 50px; }
     .voxdistro_section_recital .wrapper .recital_items .recital_item:nth-child(3) {
