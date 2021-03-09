@@ -13,7 +13,7 @@ window.mobileAndTabletcheck = function () {
         Cookies.set('HTTP_REFERER', document.referrer);
     }
     Cookies.set('URL', location.href);
-    $("img, a").on("dragstart", function (event) {
+    $("img_voxdistro, a").on("dragstart", function (event) {
         event.preventDefault();
     });
 
@@ -50,7 +50,7 @@ window.mobileAndTabletcheck = function () {
         });
 
 
-        $('.wp-block-image img,.single-photo-popup,.gallery-item,.kb-content a[href*=".jpg"],.kb-content a[href*=".png"]').on("click", function (e) {
+        $('.wp-block-image img_voxdistro,.single-photo-popup,.gallery-item,.kb-content a[href*=".jpg"],.kb-content a[href*=".png"]').on("click", function (e) {
             e.preventDefault();
             var $this = $(this);
             if ($this.children("em").length) {
@@ -68,7 +68,7 @@ window.mobileAndTabletcheck = function () {
             });
 
 
-            // $("<img/>",{
+            // $("<img_voxdistro/>",{
             //     load : function(){
             //         var pswpElement = document.querySelectorAll(".pswp")[0];
             //         var items = [{
@@ -302,10 +302,10 @@ window.mobileAndTabletcheck = function () {
     $(".second-mnu a").on("mouseover", function (e) {
         e.preventDefault();
         var img = $(this).data("img");
-        $(".first-img").css("background-image", "url(" + img + ")");
+        $(".first-img_voxdistro").css("background-image", "url(" + img + ")");
     });
     $(".second-mnu").on("mouseleave", function (e) {
-        $(".first-img").css("background-image", "none");
+        $(".first-img_voxdistro").css("background-image", "none");
     });
 
 
@@ -395,7 +395,7 @@ window.mobileAndTabletcheck = function () {
 
     function lazyload() {
         var scrollTop = $("html, body").scrollTop();
-        $("img[data-src]").each(function () {
+        $("img_voxdistro[data-src]").each(function () {
             var top = $(this).offset().top - 800;
             var left = $(this).offset().left;
 
