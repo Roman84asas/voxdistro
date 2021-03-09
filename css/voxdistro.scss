@@ -507,3 +507,75 @@
 		}
 	}
 }
+.voxdistro_section_law {
+	padding: 60px 0 100px 0;
+	.wrapper {
+		.law_title {
+			font-size: 40px;
+			font-weight: 700;
+			text-align: center;
+			text-transform: uppercase;
+			color: #263139;
+		}
+		.law_description {
+			margin-top: 25px;
+			font-size: 18px;
+			text-align: center;
+			color: #484846;
+		}
+		.law_body {
+			margin-top: 95px;
+			display: flex;
+			justify-content: space-between;
+			.law_item {
+				width: 360px;
+				.law_item_title {
+					font-size: 40px;
+					font-weight: 700;
+					text-align: center;
+					text-transform: uppercase;
+				}
+				.law_item_line {
+					margin-top: 30px;
+					width: 60px;
+					height: 1px;
+					background-color: #c8d8df;
+					margin-left: auto;
+					margin-right: auto;
+				}
+				.law_item_description {
+					margin-top: 30px;
+					font-size: 16px;
+					text-align: center;
+					color: #484846;
+					height: 90px;
+				}
+				.law_item_square {
+					margin-top: 25px;
+					width: 10px;
+					height: 10px;
+					margin-left: auto;
+					margin-right: auto;
+				}
+
+				.law_item_title_yellow {
+					color: #ffb100;
+				}
+				.law_item_square_yellow {
+					background-color: #ffb100;
+				}
+				.law_item_title_green {
+					color: #b3d833;
+				}
+				.law_item_square_green {
+					background-color: #b3d833;
+				}
+			}
+			.law_body_line {
+				height: 240px;
+				width: 1px;
+				background-color: #c8d8df;
+			}
+		}
+	}
+}
