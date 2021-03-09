@@ -311,4 +311,71 @@
       .voxdistro_section_recital .wrapper .recital_items .recital_item:nth-child(5) {
         margin-top: 0; } }
 
+.voxdistro_section_turning {
+  background-color: #f2f4f9;
+  padding: 90px 0;
+  margin-bottom: 115px; }
+  .voxdistro_section_turning .wrapper .turning_title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #263139;
+    text-align: center; }
+  .voxdistro_section_turning .wrapper .turning_body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px; }
+    .voxdistro_section_turning .wrapper .turning_body .turning_body_item {
+      width: 300px;
+      margin-top: 55px; }
+      .voxdistro_section_turning .wrapper .turning_body .turning_body_item .turning_body_item_title {
+        font-size: 20px;
+        font-weight: 700;
+        color: #263139; }
+      .voxdistro_section_turning .wrapper .turning_body .turning_body_item .turning_body_item_descr {
+        font-size: 16px;
+        color: #484846;
+        margin-top: 30px; }
+    .voxdistro_section_turning .wrapper .turning_body .turning_body_item_image {
+      box-shadow: 0 10px 30px 0 #b7bdc1;
+      margin-bottom: -180px;
+      width: 430px;
+      height: auto; }
+  @media (max-width: 1170px) {
+    .voxdistro_section_turning .wrapper {
+      padding: 0 5px; } }
+  @media (max-width: 1050px) {
+    .voxdistro_section_turning {
+      padding: 80px 0;
+      margin-bottom: 115px; }
+      .voxdistro_section_turning .wrapper .turning_title {
+        font-size: 35px; }
+      .voxdistro_section_turning .wrapper .turning_body {
+        margin-top: 50px;
+        justify-content: center;
+        flex-direction: column; }
+        .voxdistro_section_turning .wrapper .turning_body .turning_body_item {
+          max-width: 430px;
+          width: 100%;
+          margin-top: 25px;
+          margin-left: auto;
+          margin-right: auto; }
+        .voxdistro_section_turning .wrapper .turning_body .turning_body_item:nth-child(1) {
+          order: 1; }
+        .voxdistro_section_turning .wrapper .turning_body .turning_body_item:nth-child(2) {
+          order: 2; }
+        .voxdistro_section_turning .wrapper .turning_body .turning_body_item_image {
+          order: 3;
+          margin-top: 25px;
+          margin-left: auto;
+          margin-right: auto; } }
+  @media (max-width: 680px) {
+    .voxdistro_section_turning {
+      margin-bottom: 125px; }
+      .voxdistro_section_turning .wrapper .turning_title {
+        font-size: 30px; }
+      .voxdistro_section_turning .wrapper .turning_body .turning_body_item_image {
+        max-width: 430px;
+        width: 100%;
+        height: auto; } }
+
 /*# sourceMappingURL=voxdistro.css.map */
