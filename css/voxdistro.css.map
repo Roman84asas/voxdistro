@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,GAAI;EACH,KAAK,EAAE,GAAG",
+"mappings": "AAAA,QAAS;EACR,SAAS,EAAE,MAAM;EACjB,KAAK,EAAE,IAAI;EACX,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,MAAM",
 "sources": ["voxdistro.scss"],
 "names": [],
 "file": "voxdistro.css"
