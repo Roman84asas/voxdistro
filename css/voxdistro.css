@@ -167,4 +167,20 @@
     .voxdistro_section_enumeration .wrapper .enumeration_items .enumeration_item .body_shadow {
       left: 0.5%; } }
 
+.voxdistro_section_recital {
+  padding: 90px 0 100px 0;
+  background-image: url("../img_voxdistro/voxdistro-distro.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto; }
+  .voxdistro_section_recital .wrapper .recital_title {
+    font-size: 60px;
+    text-align: center;
+    color: #263139;
+    font-weight: 700;
+    display: block;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 95px; }
+
 /*# sourceMappingURL=voxdistro.css.map */
