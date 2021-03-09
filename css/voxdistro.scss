@@ -87,3 +87,140 @@
 	}
 }
 
+.voxdistro_section_enumeration {
+	padding-top: 100px;
+	.wrapper {
+		.enumeration_items {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			.enumeration_item {
+				border-radius: 5px;
+				max-width: 370px;
+				width: 100%;
+				height: 270px;
+				padding: 40px 0;
+				margin-right: 30px;
+				position: relative;
+				margin-bottom: 8px;
+				.body_shadow {
+					border-radius: 5px;
+					opacity: 0.2;
+					position: absolute;
+					left: 2.5%;
+					top: 8px;
+					width: 350px;
+					height: 270px;
+				}
+				.enumeration_item_body {
+					width: 310px;
+					margin: 0 auto;
+					display: block;
+					.enumeration_item_top {
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+						margin-bottom: 35px;
+						.enumeration_item_line {
+							height: 3px;
+							width: 70px;
+							background-color: #ffffff;
+						}
+						.enumeration_item_number {
+							font-size: 14px;
+							color: rgb(255, 255, 255);
+							font-weight: bold;
+							text-transform: uppercase;
+							line-height: 1.714;
+						}
+					}
+					.enumeration_item_description {
+						font-size: 18px;
+						color: #263139;
+						font-weight: bold;
+						line-height: 1.389;
+						text-align: left;
+						margin-bottom: 10px;
+					}
+					.enumeration_item_date {
+						font-size: 30px;
+						color: #ffffff;
+						font-weight: bold;
+						line-height: 1.2;
+						text-align: left;
+					}
+				}
+			}
+			.item_yellow {
+				background-image: url("../img_voxdistro/voxdistro-f1.png");
+				background-position: 50% 340%;
+				background-repeat: no-repeat;
+				.body_shadow {
+					background-color: rgb(255, 177, 0);
+				}
+				background-color: #ffb100;
+			}
+			.item_green {
+				background-image: url("../img_voxdistro/voxdistro-f2.png");
+				background-position: 50% 170%;
+				background-repeat: no-repeat;
+				.body_shadow {
+					background-color: rgb(164, 203, 28);
+				}
+				background-color: #a4cb1c;
+			}
+			.item_blue {
+				background-image: url("../img_voxdistro/voxdistro-f3.png");
+				background-position: 50% 340%;
+				background-repeat: no-repeat;
+				.body_shadow {
+					background-color: rgb(64, 196, 244);
+				}
+				background-color: #40c4f4;
+				.enumeration_item_body {
+					.enumeration_item_date {
+						font-size: 25px;
+					}
+				}
+			}
+			.enumeration_item:last-child {
+				margin-right: 0;
+			}
+		}
+		@media (max-width: 1170px) {
+			.enumeration_items {
+				.enumeration_item {
+					margin-right: 15px;
+					margin-left: 15px;
+					margin-bottom: 20px;
+				}
+				.enumeration_item:last-child {
+					margin-right: 15px;
+					margin-left: 15px;
+					margin-bottom: 8px;
+				}
+			}
+		}
+		@media (max-width: 410px) {
+			.enumeration_items {
+				.enumeration_item {
+					margin-right: 5px;
+					margin-left: 5px;
+				}
+				.enumeration_item:last-child {
+					margin-right: 5px;
+					margin-left: 5px;
+				}
+			}
+		}
+		@media (max-width: 375px) {
+			.enumeration_items {
+				.enumeration_item {
+					.body_shadow {
+						left: 0.5%;
+					}
+				}
+			}
+		}
+	}
+}
