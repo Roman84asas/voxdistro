@@ -191,7 +191,11 @@
       width: 370px;
       height: 440px;
       margin-bottom: 30px;
-      margin-right: 30px; }
+      margin-right: 30px;
+      padding: 50px 0; }
+      .voxdistro_section_recital .wrapper .recital_items .recital_item .recital_item_body {
+        width: 310px;
+        margin: 0 auto; }
     .voxdistro_section_recital .wrapper .recital_items .recital_item:nth-child(2) {
       margin-top: 50px; }
     .voxdistro_section_recital .wrapper .recital_items .recital_item:nth-child(3) {
