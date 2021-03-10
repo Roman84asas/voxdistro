@@ -794,4 +794,43 @@
       .voxdistro_section_cooperation .wrapper .cooperation_title {
         font-size: 25px; } }
 
+.voxdistro_section_used {
+  padding: 100px 0 150px 0; }
+  .voxdistro_section_used .wrapper {
+    padding: 0 5px; }
+    .voxdistro_section_used .wrapper .used_title {
+      font-size: 40px;
+      color: #263139;
+      font-weight: 700;
+      text-transform: uppercase;
+      line-height: 1.25;
+      text-align: center; }
+    .voxdistro_section_used .wrapper .used_body {
+      margin-top: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .voxdistro_section_used .wrapper .used_body .used_body_line {
+        height: 150px;
+        width: 1px;
+        background-color: #c8d8df; }
+  @media (max-width: 720px) {
+    .voxdistro_section_used {
+      padding: 80px 0 120px 0; }
+      .voxdistro_section_used .wrapper .used_title {
+        font-size: 30px; }
+      .voxdistro_section_used .wrapper .used_body {
+        margin-top: 80px;
+        justify-content: center;
+        flex-direction: column; }
+        .voxdistro_section_used .wrapper .used_body .used_body_line {
+          margin: 50px auto;
+          height: 1px;
+          width: 250px; }
+        .voxdistro_section_used .wrapper .used_body img {
+          max-width: 240px;
+          width: auto;
+          margin-left: auto;
+          margin-right: auto; } }
+
 /*# sourceMappingURL=voxdistro.css.map */
