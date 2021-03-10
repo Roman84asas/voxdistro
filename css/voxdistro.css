@@ -833,4 +833,61 @@
           margin-left: auto;
           margin-right: auto; } }
 
+.voxdistro_section_info {
+  background-image: url("../img_voxdistro/all_service.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 305px;
+  padding: 70px 0 50px 0; }
+  .voxdistro_section_info .wrapper {
+    display: flex;
+    justify-content: right;
+    align-items: center; }
+    .voxdistro_section_info .wrapper .section_info_body {
+      max-width: 640px;
+      width: 100%;
+      margin-left: auto; }
+      .voxdistro_section_info .wrapper .section_info_body .section_info_title {
+        font-size: 24px;
+        color: black;
+        font-weight: 700;
+        line-height: 1.25;
+        text-align: left; }
+      .voxdistro_section_info .wrapper .section_info_body .section_info_descr {
+        max-width: 585px;
+        width: 100%;
+        margin-top: 30px;
+        font-size: 24px;
+        color: black;
+        line-height: 1.25;
+        text-align: left; }
+    @media (max-width: 1030px) {
+      .voxdistro_section_info .wrapper .section_info_body {
+        background-color: rgba(255, 197, 39, 0.4);
+        border-radius: 25px;
+        padding: 10px; } }
+    @media (max-width: 640px) {
+      .voxdistro_section_info .wrapper .section_info_body {
+        padding: 7px; }
+        .voxdistro_section_info .wrapper .section_info_body .section_info_title {
+          font-size: 20px; }
+        .voxdistro_section_info .wrapper .section_info_body .section_info_descr {
+          margin-top: 20px;
+          font-size: 18px; } }
+    @media (max-width: 420px) {
+      .voxdistro_section_info .wrapper .section_info_body {
+        padding: 5px; }
+        .voxdistro_section_info .wrapper .section_info_body .section_info_title {
+          font-size: 18px; }
+        .voxdistro_section_info .wrapper .section_info_body .section_info_descr {
+          margin-top: 15px;
+          font-size: 16px; } }
+  @media (max-width: 1700px) {
+    .voxdistro_section_info {
+      background-size: auto 100%; } }
+  @media (max-width: 650px) {
+    .voxdistro_section_info {
+      margin-bottom: 20px; } }
+
 /*# sourceMappingURL=voxdistro.css.map */
