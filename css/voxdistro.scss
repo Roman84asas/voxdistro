@@ -977,9 +977,35 @@
 					background-color: #91d52a;
 				}
 			}
-			.cooperation_item:hover {
+			.cooperation_item_orange:hover {
 				transition: all 0.3s ease;
-
+				border-top-right-radius: 5px;
+				border-top-left-radius: 5px;
+				background-color: #fe6134;
+				.cooperation_item_description {
+					color: rgb(255, 255, 255);
+					transition: all 0.3s ease;
+				}
+			}
+			.cooperation_item_violet:hover {
+				transition: all 0.3s ease;
+				border-top-right-radius: 5px;
+				border-top-left-radius: 5px;
+				background-color: #6955ae;
+				.cooperation_item_description {
+					color: rgb(255, 255, 255);
+					transition: all 0.3s ease;
+				}
+			}
+			.cooperation_item_green:hover {
+				transition: all 0.3s ease;
+				border-top-right-radius: 5px;
+				border-top-left-radius: 5px;
+				background-color: #91d52a;
+				.cooperation_item_description {
+					color: rgb(255, 255, 255);
+					transition: all 0.3s ease;
+				}
 			}
 		}
 	}

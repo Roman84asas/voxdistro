@@ -749,8 +749,30 @@
         background-color: #6955ae; }
       .voxdistro_section_cooperation .wrapper .cooperation_body .cooperation_item .cooperation_item_color_green {
         background-color: #91d52a; }
-    .voxdistro_section_cooperation .wrapper .cooperation_body .cooperation_item:hover {
-      transition: all 0.3s ease; }
+    .voxdistro_section_cooperation .wrapper .cooperation_body .cooperation_item_orange:hover {
+      transition: all 0.3s ease;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+      background-color: #fe6134; }
+      .voxdistro_section_cooperation .wrapper .cooperation_body .cooperation_item_orange:hover .cooperation_item_description {
+        color: white;
+        transition: all 0.3s ease; }
+    .voxdistro_section_cooperation .wrapper .cooperation_body .cooperation_item_violet:hover {
+      transition: all 0.3s ease;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+      background-color: #6955ae; }
+      .voxdistro_section_cooperation .wrapper .cooperation_body .cooperation_item_violet:hover .cooperation_item_description {
+        color: white;
+        transition: all 0.3s ease; }
+    .voxdistro_section_cooperation .wrapper .cooperation_body .cooperation_item_green:hover {
+      transition: all 0.3s ease;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+      background-color: #91d52a; }
+      .voxdistro_section_cooperation .wrapper .cooperation_body .cooperation_item_green:hover .cooperation_item_description {
+        color: white;
+        transition: all 0.3s ease; }
   @media (max-width: 1125px) {
     .voxdistro_section_cooperation {
       padding-top: 80px; }
