@@ -966,14 +966,6 @@
 					height: 10px;
 					border-top-right-radius: 5px;
 					border-top-left-radius: 5px;
-					.cooperation_item_color_top {
-						display: none;
-						transition: all 0.3s ease;
-					}
-					.cooperation_item_color_description {
-						display: none;
-						transition: all 0.3s ease;
-					}
 				}
 				.cooperation_item_color_orange {
 					background-color: #fe6134;
@@ -987,45 +979,7 @@
 			}
 			.cooperation_item:hover {
 				transition: all 0.3s ease;
-				.cooperation_item_top {
-					display: none;
-					transition: all 0.3s ease;
-				}
-				.cooperation_item_description {
-					display: none;
-					transition: all 0.3s ease;
-				}
-				.cooperation_item_color {
-					padding-top: 50px;
-					margin-top: 0;
-					height: 415px;
-					transition: all 0.3s ease;
-					.cooperation_item_color_top {
-						display: flex;
-						border-radius: 50%;
-						background-color: #ffffff;
-						width: 100px;
-						height: 100px;
-						margin-left: auto;
-						margin-right: auto;
-						justify-content: center;
-						align-items: center;
-						transition: all 0.3s ease;
-						img {
-							width: 70px;
-							height: auto;
-						}
-					}
-					.cooperation_item_color_description {
-						display: block;
-						font-size: 16px;
-						color: rgb(255, 255, 255);
-						line-height: 1.563;
-						text-align: center;
-						margin-top: 50px;
-						transition: all 0.3s ease;
-					}
-				}
+
 			}
 		}
 	}
