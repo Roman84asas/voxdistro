@@ -79,5 +79,18 @@
         color: #484846;
         line-height: 1.563;
         text-align: left; }
+    @media (max-width: 1110px) {
+      .call_detail_select .wrapper .call_detail_select_body {
+        justify-content: center;
+        flex-wrap: wrap; }
+        .call_detail_select .wrapper .call_detail_select_body .call_detail_select_item {
+          margin: 0 5px 30px 5px; } }
+    @media (max-width: 430px) {
+      .call_detail_select .wrapper .call_detail_select_body .call_detail_select_item .call_detail_select_item_image {
+        width: 60px;
+        height: 60px;
+        margin-right: 25px; }
+      .call_detail_select .wrapper .call_detail_select_body .call_detail_select_item .call_detail_select_item_description {
+        font-size: 15px; } }
 
 /*# sourceMappingURL=call_detail.css.map */
