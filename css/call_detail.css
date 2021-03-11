@@ -130,4 +130,10 @@
       .call_detail_title .wrapper .call_detail_title_litter {
         font-size: 20px; } }
 
+.call_detail_info {
+  padding-top: 70px; }
+  .call_detail_info .wrapper {
+    border-bottom: 1px solid #b0abb3;
+    padding-bottom: 70px; }
+
 /*# sourceMappingURL=call_detail.css.map */
