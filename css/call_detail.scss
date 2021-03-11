@@ -200,6 +200,10 @@
 						margin-top: -35px;
 						margin-left: 20px;
 					}
+					.number_fourth {
+						margin-top: -35px;
+						margin-left: 20px;
+					}
 					.detail_info_top_icon {
 						background-color: #ffffff;
 						padding-left: 30px;
@@ -236,12 +240,19 @@
 					.icon_third {
 						margin-left: -140px;
 					}
+					.icon_fourth {
+						margin-left: -125px;
+						max-width: 350px;
+					}
 				}
 				.detail_info_top_left_description {
 					font-size: 16px;
 					color: rgb(72, 72, 70);
 					line-height: 1.563;
 					text-align: left;
+				}
+				.descr_fourth {
+					margin-bottom: 120px;
 				}
 			}
 			.detail_info_top_image {
@@ -273,6 +284,9 @@
 				padding-right: 5px;
 				.detail_info_top_left {
 					margin-bottom: 50px;
+					.descr_fourth {
+						margin-bottom: 50px;
+					}
 				}
 				.detail_info_top_image {
 					.image_right {

@@ -155,6 +155,9 @@
           .call_detail_info .wrapper .detail_info_top .detail_info_top_left .detail_info_top_left_title .number_second {
             margin-top: -35px;
             margin-left: 20px; }
+          .call_detail_info .wrapper .detail_info_top .detail_info_top_left .detail_info_top_left_title .number_fourth {
+            margin-top: -35px;
+            margin-left: 20px; }
           .call_detail_info .wrapper .detail_info_top .detail_info_top_left .detail_info_top_left_title .detail_info_top_icon {
             background-color: #ffffff;
             padding-left: 30px;
@@ -185,11 +188,16 @@
             margin-left: -105px; }
           .call_detail_info .wrapper .detail_info_top .detail_info_top_left .detail_info_top_left_title .icon_third {
             margin-left: -140px; }
+          .call_detail_info .wrapper .detail_info_top .detail_info_top_left .detail_info_top_left_title .icon_fourth {
+            margin-left: -125px;
+            max-width: 350px; }
         .call_detail_info .wrapper .detail_info_top .detail_info_top_left .detail_info_top_left_description {
           font-size: 16px;
           color: #484846;
           line-height: 1.563;
           text-align: left; }
+        .call_detail_info .wrapper .detail_info_top .detail_info_top_left .descr_fourth {
+          margin-bottom: 120px; }
       .call_detail_info .wrapper .detail_info_top .detail_info_top_image {
         position: relative; }
         .call_detail_info .wrapper .detail_info_top .detail_info_top_image .image_right {
@@ -214,6 +222,8 @@
           padding-right: 5px; }
           .call_detail_info .wrapper .detail_info_top .detail_info_top_left {
             margin-bottom: 50px; }
+            .call_detail_info .wrapper .detail_info_top .detail_info_top_left .descr_fourth {
+              margin-bottom: 50px; }
           .call_detail_info .wrapper .detail_info_top .detail_info_top_image .image_right {
             display: block;
             margin-left: auto;
