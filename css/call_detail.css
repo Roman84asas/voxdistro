@@ -110,4 +110,24 @@
     .call_detail_first .wrapper .call_detail_first_title {
       font-size: 18px; } }
 
+.call_detail_title {
+  padding-top: 90px;
+  padding-bottom: 10px; }
+  .call_detail_title .wrapper .call_detail_title_litter {
+    font-size: 30px;
+    color: #27313d;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center; }
+  @media (max-width: 755px) {
+    .call_detail_title {
+      padding-top: 80px; }
+      .call_detail_title .wrapper .call_detail_title_litter {
+        font-size: 25px; } }
+  @media (max-width: 500px) {
+    .call_detail_title {
+      padding-top: 70px; }
+      .call_detail_title .wrapper .call_detail_title_litter {
+        font-size: 20px; } }
+
 /*# sourceMappingURL=call_detail.css.map */
