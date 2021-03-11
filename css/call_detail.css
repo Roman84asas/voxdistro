@@ -61,7 +61,8 @@
         margin: 110px auto 0 auto; } }
 
 .call_detail_select {
-  padding-top: 100px; }
+  padding-top: 100px;
+  padding-bottom: 25px; }
   .call_detail_select .wrapper .call_detail_select_body {
     display: flex;
     justify-content: space-between; }
