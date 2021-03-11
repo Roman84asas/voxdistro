@@ -345,6 +345,55 @@
 				}
 			}
 		}
+		.detail_info_ul {
+			padding-top: 50px;
+			display: flex;
+			justify-content: space-between;
+			.detail_info_li {
+				max-width: 570px;
+				width: 100%;
+				.info_li_item {
+					width: 100%;
+					display: flex;
+					margin-bottom: 30px;
+					.info_li_item_circle {
+						border: 2px solid #ffc541;
+						border-radius: 50%;
+						width: 9px;
+						height: 9px;
+						margin-top: 10px;
+						margin-right: 20px;
+					}
+					.info_li_item_descr {
+						max-width: 535px;
+						width: 100%;
+						font-size: 16px;
+						color: rgb(72, 72, 70);
+						line-height: 1.563;
+						text-align: left;
+						.info_li_item_descr_li {
+							margin-left: 30px;
+						}
+						.info_li_item_descr_li:first-child {
+							margin-top: 20px;
+						}
+					}
+				}
+				.w-b {
+					margin-bottom: 0;
+				}
+			}
+			@media (max-width: 1120px) {
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				padding-left: 5px;
+				padding-right: 5px;
+				.detail_info_li:last-child {
+					margin-top: 20px;
+				}
+			}
 
+		}
 	}
 }
