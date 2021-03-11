@@ -212,5 +212,8 @@
             top: unset;
             left: unset;
             width: 100%; } }
+    .call_detail_info .wrapper .detail_info_second {
+      padding-top: 50px;
+      display: flex; }
 
 /*# sourceMappingURL=call_detail.css.map */
