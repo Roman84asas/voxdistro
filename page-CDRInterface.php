@@ -134,7 +134,7 @@ get_header(); ?>
                     <div class="detail_info_top_left_title">
                         <div class="detail_info_top_number number_second">02</div>
                         <div class="detail_info_top_icon icon_second">
-                            <img src="./minimg/call_detail_img/02_telephone.svg" alt="" class="info_top_icon">
+                            <img src="/wp-content/themes/voxlink/minimg/call_detail_img/02_telephone.svg" alt="" class="info_top_icon">
                             <div class="detail_info_top_icon_title">Входящий канал</div>
                         </div>
                     </div>
@@ -143,7 +143,7 @@ get_header(); ?>
                     </div>
                 </div>
                 <div class="detail_info_top_image">
-                    <img src="./minimg/call_detail_img/Screen_02_1.png" alt="" class="image_right">
+                    <img src="/wp-content/themes/voxlink/minimg/call_detail_img/Screen_02_1.png" alt="" class="image_right">
                 </div>
             </div>
             <div class="detail_info_second second_block">
