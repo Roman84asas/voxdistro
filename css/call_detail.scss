@@ -39,4 +39,16 @@
 			display: block;
 		}
 	}
+	@media (max-width: 895px) {
+		padding-top: 90px;
+		.wrapper {
+			.call_detail_top_title {
+				font-size: 65px;
+				line-height: 80px;
+			}
+			.mouseWheel {
+				margin: 65px auto 0 auto;
+			}
+		}
+	}
 }

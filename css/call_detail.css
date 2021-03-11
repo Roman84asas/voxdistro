@@ -35,5 +35,13 @@
     bottom: 0;
     margin: 55px auto 0 auto;
     display: block; }
+  @media (max-width: 895px) {
+    .call_detail_top {
+      padding-top: 90px; }
+      .call_detail_top .wrapper .call_detail_top_title {
+        font-size: 65px;
+        line-height: 80px; }
+      .call_detail_top .wrapper .mouseWheel {
+        margin: 65px auto 0 auto; } }
 
 /*# sourceMappingURL=call_detail.css.map */
