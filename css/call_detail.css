@@ -94,4 +94,17 @@
       .call_detail_select .wrapper .call_detail_select_body .call_detail_select_item .call_detail_select_item_description {
         font-size: 15px; } }
 
+.call_detail_first {
+  padding-top: 25px;
+  background-color: #f2f4f9; }
+  .call_detail_first .wrapper .call_detail_first_title {
+    font-size: 20px;
+    color: #484846;
+    line-height: 1.25;
+    text-align: center; }
+  .call_detail_first .wrapper .call_detail_first_img {
+    width: 100%;
+    height: auto;
+    margin-top: 45px; }
+
 /*# sourceMappingURL=call_detail.css.map */
