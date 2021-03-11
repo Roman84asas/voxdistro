@@ -1,0 +1,42 @@
+.wrapper {
+	max-width: 1170px;
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+.call_detail_yellow {
+	color: #ffb100;
+}
+.call_detail_top {
+	background-image: url("../minimg/call_detail_img/bg_img.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	padding-top: 100px;
+	min-height: 525px;
+	height: 100%;
+	border-bottom: 2px solid #f57c00;
+	.wrapper {
+		.call_detail_top_title {
+			color: #ffffff;
+			font-weight: 700;
+			text-transform: uppercase;
+			font-size: 80px;
+			text-align: center;
+			line-height: 90px;
+			margin: 0 auto 0 auto;
+		}
+		.mouseWheel {
+			position: relative;
+			height: 32px;
+			top: 20px;
+			left: inherit;
+			-webkit-transform: none;
+			-ms-transform: none;
+			transform: none;
+			bottom: 0;
+			margin: 55px auto 0 auto;
+			display: block;
+		}
+	}
+}
