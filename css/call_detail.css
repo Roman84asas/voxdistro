@@ -183,6 +183,8 @@
                 background-color: #ffb100; }
           .call_detail_info .wrapper .detail_info_top .detail_info_top_left .detail_info_top_left_title .icon_second {
             margin-left: -105px; }
+          .call_detail_info .wrapper .detail_info_top .detail_info_top_left .detail_info_top_left_title .icon_third {
+            margin-left: -140px; }
         .call_detail_info .wrapper .detail_info_top .detail_info_top_left .detail_info_top_left_description {
           font-size: 16px;
           color: #484846;
