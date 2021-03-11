@@ -200,6 +200,10 @@
 						margin-top: -35px;
 						margin-left: 20px;
 					}
+					.fifth_number {
+						margin-top: -45px;
+						margin-left: 25px;
+					}
 					.number_fourth {
 						margin-top: -35px;
 						margin-left: 20px;
@@ -219,7 +223,7 @@
 							font-size: 20px;
 							padding: 30px 0;
 							color: rgb(38, 49, 57);
-							font-weight: bold;
+							font-weight: 700;
 							text-transform: uppercase;
 							line-height: 1.5;
 							text-align: left;
@@ -243,6 +247,9 @@
 					.icon_fourth {
 						margin-left: -125px;
 						max-width: 350px;
+					}
+					.fifth_icon {
+						margin-left: -110px;
 					}
 				}
 				.detail_info_top_left_description {
@@ -425,5 +432,9 @@
 				margin-top: 0;
 			}
 		}
+	}
+	.fifth_wrapper {
+		border-bottom: none;
+		padding-bottom: 100px;
 	}
 }
