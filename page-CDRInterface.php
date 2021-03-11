@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: VoxDistroIPPBX
+Template Name: CDRInterface
 */
 get_header(); ?>
     <section class="call_detail_top">
