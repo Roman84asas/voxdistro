@@ -8,7 +8,7 @@
   color: #ffb100; }
 
 .voxdistro_section_top {
-  background-image: url("../img_voxdistro/voxdistro-bg_Img.jpg");
+  background-image: url("../minimg/img_voxdistro/voxdistro-bg_Img.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: auto;
@@ -123,21 +123,21 @@
           line-height: 1.2;
           text-align: left; }
     .voxdistro_section_enumeration .wrapper .enumeration_items .item_yellow {
-      background-image: url("../img_voxdistro/voxdistro-f1.png");
+      background-image: url("../minimg/img_voxdistro/voxdistro-f1.png");
       background-position: 50% 340%;
       background-repeat: no-repeat;
       background-color: #ffb100; }
       .voxdistro_section_enumeration .wrapper .enumeration_items .item_yellow .body_shadow {
         background-color: #ffb100; }
     .voxdistro_section_enumeration .wrapper .enumeration_items .item_green {
-      background-image: url("../img_voxdistro/voxdistro-f2.png");
+      background-image: url("../minimg/img_voxdistro/voxdistro-f2.png");
       background-position: 50% 170%;
       background-repeat: no-repeat;
       background-color: #a4cb1c; }
       .voxdistro_section_enumeration .wrapper .enumeration_items .item_green .body_shadow {
         background-color: #a4cb1c; }
     .voxdistro_section_enumeration .wrapper .enumeration_items .item_blue {
-      background-image: url("../img_voxdistro/voxdistro-f3.png");
+      background-image: url("../minimg/img_voxdistro/voxdistro-f3.png");
       background-position: 50% 340%;
       background-repeat: no-repeat;
       background-color: #40c4f4; }
@@ -169,7 +169,7 @@
 
 .voxdistro_section_recital {
   padding: 90px 0 100px 0;
-  background-image: url("../img_voxdistro/voxdistro-distro.jpg");
+  background-image: url("../minimg/img_voxdistro/voxdistro-distro.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: auto; }
@@ -498,7 +498,7 @@
           margin: 40px 0; } }
 
 .voxdistro_section_cost {
-  background-image: url("../img_voxdistro/voxdistro-rectangle.jpg");
+  background-image: url("../minimg/img_voxdistro/voxdistro-rectangle.jpg");
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -834,7 +834,7 @@
           margin-right: auto; } }
 
 .voxdistro_section_info {
-  background-image: url("../img_voxdistro/all_service.png");
+  background-image: url("../minimg/img_voxdistro/all_service.png");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
