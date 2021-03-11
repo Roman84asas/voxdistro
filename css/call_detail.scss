@@ -196,6 +196,10 @@
 						margin-top: -75px;
 						margin-left: 40px;
 					}
+					.number_second {
+						margin-top: -35px;
+						margin-left: 20px;
+					}
 					.detail_info_top_icon {
 						background-color: #ffffff;
 						padding-left: 30px;
@@ -225,6 +229,9 @@
 								background-color: #ffb100;
 							}
 						}
+					}
+					.icon_second {
+						margin-left: -105px;
 					}
 				}
 				.detail_info_top_left_description {
@@ -394,6 +401,12 @@
 				}
 			}
 
+		}
+		.second_block {
+			margin-top: 115px;
+			@media (max-width: 1750px) {
+				margin-top: 0;
+			}
 		}
 	}
 }
