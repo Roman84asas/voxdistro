@@ -106,5 +106,8 @@
     width: 100%;
     height: auto;
     margin-top: 45px; }
+  @media (max-width: 420px) {
+    .call_detail_first .wrapper .call_detail_first_title {
+      font-size: 18px; } }
 
 /*# sourceMappingURL=call_detail.css.map */
